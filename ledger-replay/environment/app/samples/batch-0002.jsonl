@@ -1,0 +1,3 @@
+{"event_id": "wh2-000018", "id": "sku-205", "op": "upsert", "ts": "2026-03-02T09:30:00+00:00", "seq": 4, "fields": {"note": null}}
+{"event_id": "wh1-000099", "id": "sku-100", "op": "incr", "ts": "2026-03-02T09:16:00Z", "seq": 1, "fields": {"on_hand": -5}}
+{"event_id": "wh1-000102", "id": "sku-100", "op": "incr", "ts": "2026-03-02T09:20:00Z", "seq": 2, "fields": {"on_hand": 40}}

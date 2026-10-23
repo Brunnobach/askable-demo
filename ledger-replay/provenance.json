@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "third_party_material": [
+    {
+      "name": "ubuntu (base image)",
+      "source": "https://hub.docker.com/_/ubuntu",
+      "license": "Various (Ubuntu licensing policy; principal components GPL and other FOSS licences)",
+      "version_or_hash": "24.04",
+      "ai_training_authorization": "Base OS image used as runtime only; not distributed as task content. FOSS licensing permits this use."
+    },
+    {
+      "name": "python3 / python3-pip (Ubuntu packages)",
+      "source": "https://packages.ubuntu.com/noble/python3",
+      "license": "PSF-2.0",
+      "version_or_hash": "3.12 (noble)",
+      "ai_training_authorization": "PSF licence permits use, modification, and redistribution without field-of-use restrictions, which covers Askable's intended AI-training use."
+    },
+    {
+      "name": "pytest",
+      "source": "https://pypi.org/project/pytest/",
+      "license": "MIT",
+      "version_or_hash": "8.4.1",
+      "ai_training_authorization": "MIT licence permits use, modification, and redistribution without field-of-use restrictions, which covers Askable's intended AI-training use."
+    },
+    {
+      "name": "git (Ubuntu package)",
+      "source": "https://packages.ubuntu.com/noble/git",
+      "license": "GPL-2.0-only",
+      "version_or_hash": "noble",
+      "ai_training_authorization": "Used as a runtime tool only; not distributed as task content. GPL-2.0 permits this use."
+    },
+    {
+      "name": "tmux and asciinema (Ubuntu packages)",
+      "source": "https://packages.ubuntu.com/noble/tmux",
+      "license": "ISC (tmux); GPL-3.0 (asciinema)",
+      "version_or_hash": "noble",
+      "ai_training_authorization": "Calibration harness tooling used at runtime only; not distributed as task content. FOSS licences permit this use."
+    }
+  ]
+}
