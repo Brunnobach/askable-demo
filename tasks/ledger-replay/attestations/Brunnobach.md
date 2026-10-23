@@ -2,9 +2,9 @@
 
 Task: ledger-replay
 Commit: TASK_CODE_COMMIT
-Legal name: YOUR_LEGAL_NAME
-GitHub handle: @YOUR_GITHUB_HANDLE
-Date: YYYY-MM-DD
+Legal name: BRUNNO FONTANELLA BACHMANN
+GitHub handle: @brunnobach
+Date: 2026-10-23
 
 ## Declarations
 
@@ -14,4 +14,4 @@ Date: YYYY-MM-DD
 - [x] I own or have authority to contribute all material in my contribution.
 - [x] I assign all right, title, and interest in my contribution to Askable.
 
-Signature: YOUR_LEGAL_NAME
+Signature: BRUNNO FONTANELLA BACHMANN
