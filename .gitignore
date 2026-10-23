@@ -1,0 +1,24 @@
+# Harbor run artifacts
+jobs/
+trials/
+exports/
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+
+# Docker build output at the repo root. Deliberately NOT a bare *.log:
+# that pattern matches inside tasks/ too, and it silently dropped every
+# run.log from a submission whose instruction told the agent to read them.
+/*.log
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
