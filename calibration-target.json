@@ -1,0 +1,7 @@
+{
+  "agent": "terminus-2",
+  "model": "gemini/gemini-3.8-flash",
+  "attempt_count": 10,
+  "min_success": 1,
+  "max_success": 4
+}

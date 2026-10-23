@@ -1,0 +1,25 @@
+schema_version = "1.3"
+
+[task]
+authors = [{ name = "YOUR_NAME", email = "YOUR_EMAIL" }]
+keywords = ["terminal-task"]
+
+[metadata]
+category = "Bug Fix"
+primary_languages = ["Python"]
+difficulty_explanation = "Explain why this task is challenging and summarize its calibration outcome."
+ai_tools_used = []
+
+[verifier]
+timeout_sec = 600.0
+
+[agent]
+timeout_sec = 7200.0
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+network_mode = "no-network"
+os = "linux"

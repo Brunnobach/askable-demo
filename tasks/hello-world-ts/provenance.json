@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "third_party_material": [
+    {
+      "name": "ubuntu (base image)",
+      "source": "https://hub.docker.com/_/ubuntu",
+      "license": "Various (Ubuntu licensing policy; principal components GPL and other FOSS licences)",
+      "version_or_hash": "24.04",
+      "ai_training_authorization": "Base OS image used as runtime only; not distributed as task content. FOSS licensing permits this use."
+    },
+    {
+      "name": "curl / unzip / git (Ubuntu packages)",
+      "source": "https://packages.ubuntu.com/noble/",
+      "license": "curl licence (MIT-like), Info-ZIP, GPL-2.0-only",
+      "version_or_hash": "noble",
+      "ai_training_authorization": "Used as build/runtime tools only; not distributed as task content. Their FOSS licences permit this use."
+    },
+    {
+      "name": "bun",
+      "source": "https://bun.com",
+      "license": "MIT",
+      "version_or_hash": "latest at image build (installed via bun.sh/install)",
+      "ai_training_authorization": "MIT licence permits use, modification, and redistribution without field-of-use restrictions, which covers Askable's intended AI-training use."
+    },
+    {
+      "name": "react",
+      "source": "https://www.npmjs.com/package/react",
+      "license": "MIT",
+      "version_or_hash": "latest at image build (bun add react)",
+      "ai_training_authorization": "MIT licence permits use, modification, and redistribution without field-of-use restrictions, which covers Askable's intended AI-training use."
+    },
+    {
+      "name": "react-dom",
+      "source": "https://www.npmjs.com/package/react-dom",
+      "license": "MIT",
+      "version_or_hash": "latest at image build (bun add react-dom)",
+      "ai_training_authorization": "MIT licence permits use, modification, and redistribution without field-of-use restrictions, which covers Askable's intended AI-training use."
+    }
+  ]
+}

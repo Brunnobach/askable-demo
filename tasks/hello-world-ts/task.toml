@@ -1,0 +1,27 @@
+schema_version = "1.3"
+
+[task]
+name = "example/hello-world-ts"
+description = "Create a React App component that renders a specific message"
+authors = [{ name = "Template Example", email = "example@example.invalid" }]
+keywords = ["example", "hello-world-ts"]
+
+[metadata]
+category = "Generation"
+primary_languages = ["TypeScript"]
+template_example = true
+difficulty_explanation = "Trivial reference task for validating the authoring toolchain; it is not eligible for submission."
+
+[verifier]
+timeout_sec = 120.0
+
+[agent]
+timeout_sec = 120.0
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+network_mode = "no-network"
+os = "linux"

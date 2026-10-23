@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "third_party_material": [
+    {
+      "name": "node",
+      "source": "https://nodejs.org/",
+      "license": "MIT",
+      "version_or_hash": "22.11.0",
+      "ai_training_authorization": "MIT license permits use, modification, and redistribution without field-of-use restrictions, which covers Askable's intended AI-training use."
+    },
+    {
+      "name": "react",
+      "source": "https://www.npmjs.com/package/react",
+      "license": "MIT",
+      "version_or_hash": "19.2.7",
+      "ai_training_authorization": "MIT license permits use, modification, and redistribution without field-of-use restrictions, which covers Askable's intended AI-training use."
+    },
+    {
+      "name": "playwright",
+      "source": "https://www.npmjs.com/package/playwright",
+      "license": "Apache-2.0",
+      "version_or_hash": "1.49.1",
+      "ai_training_authorization": "Apache-2.0 grants a broad, royalty-free license to use and redistribute the software, imposing no restriction on Askable's intended AI-training use."
+    }
+  ]
+}

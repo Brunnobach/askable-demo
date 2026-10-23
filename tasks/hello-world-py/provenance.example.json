@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "third_party_material": [
+    {
+      "name": "pytest",
+      "source": "https://pypi.org/project/pytest/",
+      "license": "MIT",
+      "version_or_hash": "8.3.4",
+      "ai_training_authorization": "MIT license permits use, modification, and redistribution without field-of-use restrictions, which covers Askable's intended AI-training use."
+    },
+    {
+      "name": "requests",
+      "source": "https://pypi.org/project/requests/",
+      "license": "Apache-2.0",
+      "version_or_hash": "2.32.3",
+      "ai_training_authorization": "Apache-2.0 grants a broad, royalty-free license to use and redistribute the software, imposing no restriction on Askable's intended AI-training use."
+    },
+    {
+      "name": "numpy",
+      "source": "https://pypi.org/project/numpy/",
+      "license": "BSD-3-Clause",
+      "version_or_hash": "2.2.1",
+      "ai_training_authorization": "BSD-3-Clause is a permissive license allowing use and redistribution with attribution and no field-of-use limits, which covers Askable's intended AI-training use."
+    }
+  ]
+}

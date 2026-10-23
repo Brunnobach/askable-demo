@@ -1,0 +1,39 @@
+name: Validate Tasks
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run template validation tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Check shell syntax
+        run: bash -n scripts/*.sh
+
+      - name: Validate task metadata and submission records
+        run: ./scripts/validate-submissions.sh
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Install Harbor
+        run: uv tool install harbor
+
+      - name: Add Harbor to PATH
+        run: echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - name: Set up Docker
+        uses: docker/setup-docker-action@v4
+
+      - name: Validate all tasks (oracle)
+        run: ./scripts/validate-all.sh
