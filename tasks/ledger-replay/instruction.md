@@ -6,8 +6,8 @@ The inventory ledger in `/app/ledger` produces incorrect snapshots since a secon
 The ledger uses two commands:
 
 ```bash
-python3 -m ledger.sync STATE_DIR BATCH
 python3 -m ledger.sync STATE_DIR BATCH [BATCH ...]
+python3 -m ledger.export STATE_DIR OUT_FILE
 ```
 
 Fix the ledger so that exports reflect all distinct events received so far. Keep both commands and their arguments unchanged. The internal state format is up to you. Example batches are available in `/app/samples`.
