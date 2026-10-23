@@ -1,7 +1,7 @@
 # Askable Task Contribution Attestation
 
 Task: ledger-replay
-Commit: TASK_CODE_COMMIT
+Commit: e302086ef17576c1feb6d45fd04adfc4060e842b
 Legal name: BRUNNO FONTANELLA BACHMANN
 GitHub handle: @brunnobach
 Date: 2026-10-23
@@ -13,5 +13,7 @@ Date: 2026-10-23
 - [x] I disclosed every AI tool used on this task in metadata.ai_tools_used in task.toml.
 - [x] I own or have authority to contribute all material in my contribution.
 - [x] I assign all right, title, and interest in my contribution to Askable.
+
+PS: I've used Cursor to help me in some things, but I wrote down on my own the instruction  
 
 Signature: BRUNNO FONTANELLA BACHMANN
