@@ -82,7 +82,7 @@ harbor run \
   -p "$TASK_PATH" \
   -a "$CAL_AGENT" \
   -m "$CAL_MODEL" \
-  -k "$CAL_ATTEMPTS" \
+  -k "$CAL_ATTEMPTS" -n 1 \
   --env-file "$ENV_FILE"
 
 python3 "$ROOT_DIR/scripts/collect-calibration-rewards.py" \
