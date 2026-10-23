@@ -1,7 +1,7 @@
 # Askable Task Contribution Attestation
 
 Task: ledger-replay
-Commit: da169a1b7333435d82b1e219eb2c525c8e17ad05
+Commit: 7a08c62a5bc1d3503147b8d56269506bea3b952f
 Legal name: BRUNNO FONTANELLA BACHMANN
 GitHub handle: @brunnobach
 Date: 2026-10-23
